@@ -34,13 +34,5 @@ from [portfolio project].[dbo].[CovidDeaths]
 group by location
 order by total_deathcount asc
 
---Vaccinated
-select *
-from [portfolio project]..CovidVaccinations
 
--- looking at the total vaccinated in kenya
-select location, date, total_tests, total_vaccinations
-from [portfolio project]..CovidVaccinations
-where location like '%kenya%'
-order by 1,2
 
