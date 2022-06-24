@@ -34,10 +34,12 @@ select count(*)
 from [PROJECT NETFLIX]..[country_duration]
 where country= 'Kenya'
 
+-- Count of shows in US
 select count(*)
 from  [PROJECT NETFLIX]..[country_duration]
 where country= 'United States'
 
+--Count of shows where country is NULL
 select count(*)
 from  [PROJECT NETFLIX]..[country_duration]
 where country IS NULL
